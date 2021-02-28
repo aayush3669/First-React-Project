@@ -1,0 +1,10 @@
+.state{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.field{
+    margin-top: 10px;
+}
