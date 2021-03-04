@@ -22,8 +22,10 @@ export default class Form extends React.Component {
     }
     render(){
         return(
+            
             <form>
                 <h1>Please Fill The Form Below</h1>
+                
                 <input
                 className='field'
                 name='firstname'

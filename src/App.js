@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import "./style.css";
-import Form from "./form";
+import Routing from './routing';
 
 class App extends Component {
     render() {
         return (
             <div className="state">
-                <Form />
+                <Routing/>
             </div>
+
         )
     }
 }
