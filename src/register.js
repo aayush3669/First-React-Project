@@ -8,27 +8,37 @@ class Register extends Component {
                 <h2>Register below</h2>
                 <form>
 
+                    <p>
                     <input
                         name='name'
                         placeholder="Name"
                     />
+                    </p>
+                    <p>
                     <input
                         name='emailID'
                         placeholder='EmailID'
 
                     />
+                    </p>
+                    <p>
                     <input
-                        name='phoneno'
+                        type='phoneno'
                         placeholder="PhoneNo"
                     />
+                    </p>
+                    <p>
                     <input
-                        name='Username'
+                        type='Username'
                         placeholder="Username"
                     />
+                    </p>
+                    <p>
                     <input
-                        name='Password'
+                        type='Password'
                         placeholder="Password"
                     />
+                    </p>
                 </form>
                 <a href='/'><button>Register</button></a>
 

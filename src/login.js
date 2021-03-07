@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import "./login.css";
 
+
 class Login extends Component {
     render() {
         return (
@@ -9,18 +10,22 @@ class Login extends Component {
             <div classname='field'>
                 <h1>Login Below</h1>
                 <form>
-                    <input
+                   <p>
+                   <input
                         type='username'
                         placeholder="Username"
-                    />
-                    <input
+                    /></p> 
+                   <p>
+                   <input
                         type='password'
                         placeholder="Password"
-                    />
+                    /></p> 
 
                 </form>
                 
                 <a href='/register'><button>Login</button></a>
+               
+
 
             </div >
 
