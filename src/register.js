@@ -1,13 +1,18 @@
 
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap'
+import Logo1 from '../src/Images/Logo1.png'
+
 
 class Register extends Component {
     render() {
         return (
+            
             <div classname='text'>
+                
+                <img src={Logo1} alt='logo'></img>
                 <h2>Register below</h2>
                 <form>
-
                     <p>
                     <input
                         name='name'
@@ -39,8 +44,9 @@ class Register extends Component {
                         placeholder="Password"
                     />
                     </p>
+                    <a href='/'><Button onSubmit variant="primary">Register</Button></a>
                 </form>
-                <a href='/'><button>Register</button></a>
+                
 
             </div>
 

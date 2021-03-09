@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Login from "./login.js";
 import Register from "./register.js";
 
+
 class Routing extends Component {
     render() {
         return (
@@ -13,6 +14,7 @@ class Routing extends Component {
                         <Route exact path="/" component={Login} />
                         <Route exact path="/register" component={Register} />
                     </Switch>
+                    
                 </div>
             </Router>
 
