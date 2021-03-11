@@ -29,4 +29,14 @@
     height: 5p0x;
     margin-top: 50px;
 }
+ nav ul li{
+	display: inline;
+    padding:10px;
+	
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 80px;
+    
+	
+}
 

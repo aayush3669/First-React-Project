@@ -8,7 +8,29 @@ class Register extends Component {
     render() {
         return (
             
-            <div classname='text'>
+            
+            <div classname='field'>
+            <div classname='row'>
+            <nav class="navbar navbar-inverse">
+                <a class="btn btn-navbar" data-toggle='collapse' data-target=".nav-collapse">
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   </a>
+                
+               
+            
+        <ul class="nav">
+           <li class="active"><a href="#">Home</a></li>
+           <li><a href="#">What's new</a></li>
+           <li><a href="#">Products</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Contact</a></li>
+       </ul>
+
+
+   </nav>
+        
+     </div>
                 
                 <img src={Logo1} alt='logo'></img>
                 <h2>Register below</h2>

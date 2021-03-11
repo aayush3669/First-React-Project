@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Login from "./login.js";
 import Register from "./register.js";
+import Home from "./home.js";
+import Contact from "./contact.js";
+
 
 
 class Routing extends Component {
@@ -13,6 +16,9 @@ class Routing extends Component {
                     <Switch>
                         <Route exact path="/" component={Login} />
                         <Route exact path="/register" component={Register} />
+                        <Route exact path="/home" component={Home} />
+                        <Route exact path="/contact" component={Contact} />
+
                     </Switch>
                     
                 </div>
