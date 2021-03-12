@@ -35,8 +35,10 @@
 	
 	text-align: center;
 	padding-left: 100px;
-	padding-right: 80px;
-    
-	
+	padding-right: 80px;	
 }
+    
+div img p{
+    text-align: left;
+} 
 

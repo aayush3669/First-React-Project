@@ -16,11 +16,11 @@ class Contact extends Component {
                
             
         <ul class="nav">
-           <li class="active"><a href="#">Home</a></li>
-           <li><a href="#">What's new</a></li>
-           <li><a href="#">Products</a></li>
-           <li><a href="#">About</a></li>
-           <li><a href="#">Contact</a></li>
+           <li class="active"><a href="/home">Home</a></li>
+           <li><a href="/What's new">What's new</a></li>
+           <li><a href="/product">Products</a></li>
+           <li><a href="/about">About</a></li>
+           <li><a href="/contact">Contact</a></li>
        </ul>
 
 

@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap'
 
 
 
-class Home extends Component {
+class About extends Component {
     render() {
         return (
           <div classname='field'>
@@ -45,4 +45,4 @@ class Home extends Component {
         )
     }
 }
-export default Home;
+export default About;

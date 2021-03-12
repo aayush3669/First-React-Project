@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap'
 import Logo from '../src/Images/Logo.png'
 
 
-class Login extends Component {
+class Whatsnew extends Component {
     render() {
         return (
             <div classname='field'>
@@ -19,7 +19,7 @@ class Login extends Component {
                  
              <ul class="nav">
                 <li class="active"><a href="/home">Home</a></li>
-                <li><a href="/what's new">What's new</a></li>
+                <li><a href="/whatsnew">What's new</a></li>
                 <li><a href="/product">Products</a></li>
                 <li><a href="/about">About</a></li>
                 <li><a href="/contact">Contact</a></li>
@@ -32,20 +32,7 @@ class Login extends Component {
                 
                 <img src={Logo} alt='Logo'></img>
                 <header classname="field-header">
-                <h1>Login Below</h1>  
-                <form>
-                   <p>
-                   <input
-                        type='username'
-                        placeholder="Username"
-                    /></p> 
-                   <p>
-                   <input
-                        type='password'
-                        placeholder="Password"
-                    />
-                    </p> 
-
+                
                     <a href='/register'><Button onSubmit variant="primary">Login</Button></a>
                     <a href='/login'><Button onSubmit variant="primary">Register</Button></a>
                     <a href='/contact'><Button onSubmit variant="primary">Cart</Button></a>
@@ -53,7 +40,7 @@ class Login extends Component {
                    
 
 
-                </form>
+                
             
 
                 </header>
@@ -63,7 +50,4 @@ class Login extends Component {
     }
 }
 
-export default Login;
-
-
-
+export default Whatsnew;

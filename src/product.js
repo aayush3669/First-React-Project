@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap'
 import Logo from '../src/Images/Logo.png'
 
 
-class Login extends Component {
+class Product extends Component {
     render() {
         return (
             <div classname='field'>
@@ -19,7 +19,7 @@ class Login extends Component {
                  
              <ul class="nav">
                 <li class="active"><a href="/home">Home</a></li>
-                <li><a href="/what's new">What's new</a></li>
+                <li><a href="/whatsnew">What's new</a></li>
                 <li><a href="/product">Products</a></li>
                 <li><a href="/about">About</a></li>
                 <li><a href="/contact">Contact</a></li>
@@ -63,7 +63,4 @@ class Login extends Component {
     }
 }
 
-export default Login;
-
-
-
+export default Product;
